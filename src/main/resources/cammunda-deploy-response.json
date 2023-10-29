@@ -1,0 +1,38 @@
+
+
+
+{
+  "links": [
+    {
+      "method": "GET",
+      "href": "http://localhost:8080/engine-rest/deployment/c4bcc76f-6f65-11ee-9097-fe515d12c76b",
+      "rel": "self"
+    }
+  ],
+  "id": "c4bcc76f-6f65-11ee-9097-fe515d12c76b",
+  "name": "mySampleBpmn",
+  "source": "mySampleBpmn",
+  "deploymentTime": "2021-08-30T16:54:22.248+0300",
+  "tenantId": null,
+  "deployedProcessDefinitions": {
+    "mySampleBpmn:2:c775b909-0999-11ec-bde8-02428723fcc7": {
+      "id": "mySampleBpmn:2:c4bcc76f-6f65-11ee-9097-fe515d12c76b",
+      "key": "mySampleBpmn",
+      "category": "http://bpmn.io/schema/bpmn",
+      "description": null,
+      "name": "mySampleBpmn",
+      "version": 2,
+      "resource": "sample.bpmn",
+      "deploymentId": "c4bcc76f-6f65-11ee-9097-fe515d12c76b",
+      "diagram": null,
+      "suspended": false,
+      "tenantId": null,
+      "versionTag": null,
+      "historyTimeToLive": null,
+      "startableInTasklist": true
+    }
+  },
+  "deployedCaseDefinitions": null,
+  "deployedDecisionDefinitions": null,
+  "deployedDecisionRequirementsDefinitions": null
+}
